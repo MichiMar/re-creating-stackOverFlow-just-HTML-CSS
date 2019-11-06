@@ -1,0 +1,77 @@
+.navigation-wrapper {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+}
+
+.navigation-wrapper > .my-logo-image {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.navigation-wrapper > .my-logo-image img {
+    width: 90px;
+    height: 100%;
+}
+
+.links-buttons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+    width: 350px;
+}
+
+.navigation-wrapper > .links-buttons-wrapper > .btn {
+    background-color: rgb(168, 170, 22) ;
+    color: inherit;
+    text-transform: none;
+    transform-style: flat;
+    border: none;
+    transition: 1s;
+    
+    /* background-color: #470505; */
+
+}
+
+
+
+.navigation-wrapper > .log-wrapper > {
+    display: flex;
+    align-content: center;
+    width: 10px;
+    padding: 5px 10px 5px 5px;
+}
+
+.navigation-wrapper > .log-wrapper > .btn-log-in {
+    background-color: white;
+    color: #120a85;
+    border: none;
+
+}
+
+.navigation-wrapper > .log-wrapper > .btn-sing-up {
+    background-color: white;
+    color: white;
+    border: none;
+
+}
+
+.welcome-title-wrapper {
+    background-image: url(../images/backgrounds/background-1409037_1280.png);
+    padding: 150px 475px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+.welcome-title-wrapper > .p {
+    margin: 25px;
+    text-align: center;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+}
